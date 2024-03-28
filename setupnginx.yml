@@ -6,6 +6,13 @@
 #     - name: Unnstall Nginx
 #       apt: name=nginx state=absent
 
+
+# NOT IMPORTANT DO NOT RUN 
+
+# all of this gets done from the hello.yml file instead
+
+
+
 - name: Play - Install and configure Nginx as a LoadBalancer
   hosts: localhost
   become: yes
